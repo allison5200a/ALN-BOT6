@@ -1,6 +1,6 @@
 /*
 * Tambahin nama author lah
-* Author MhankBarBar, Farhan
+* Author SR>ALLISON, Farhan
 * Tambahin ya Cape Gan ngefix² Yg Ga work
 * Jan numpang nama doank
 
@@ -67,16 +67,16 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:7.0\n'
             + 'FN:Farhan\n'
             + 'ORG:Owner FXC7;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=559488088531:+55 94 8808-8531\n'
+            + 'TEL;type=CELL;type=VOICE;waid=5586988036194:+55 94 8808-8531\n'
             + 'END:VCARD'
 
 prefix = "!"
-name = "~ MARKOS-BOT"
-rdaftar = "OBRIGADO POR SE REGISTAR PARA SE TORNAR UM AMIGO DO MARKOS BOT😁"
-rmenu = "Oi AMIGO MARKOS BOT👋 JANGAN LUPA DONASI YAA:)"
+name = "~ ALN-BOT"
+rdaftar = "OBRIGADO POR SE REGISTAR PARA SE TORNAR UM AMIGO DO ALN BOT😁"
+rmenu = "Oi AMIGO ALN BOT👋 JANGAN LUPA DONASI YAA:)"
 limitt = 1000
 ban = []
-userpremium = ["559488088531@s.whatsapp.net"] //ubah nomer kalian
+userpremium = ["5586988036194@s.whatsapp.net"] //ubah nomer kalian
 
 function kyun(seconds){
   function pad(s){
@@ -130,7 +130,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Adeus @${num.split('@')[0]}👋`
+				teks = `Saiu pra dar o cu, Adeus @${num.split('@')[0]}👋`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
@@ -199,7 +199,7 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["559488088531@s.whatsapp.net"] // owner number ubah aja
+			const ownerNumber = ["5586988036194@s.whatsapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -333,7 +333,7 @@ async function starts() {
 					break
 		case 'daftar':
 					client.updatePresence(from, Presence.composing)
-					if (isUser) return reply('vocês já são amigos do MARKOS BOT:D')
+					if (isUser) return reply('vocês já são amigos do ALN BOT:D')
 					if (isBanned) return reply(mess.only.benned)
 					user.push(sender)
 					fs.writeFileSync('./database/json/user.json', JSON.stringify(user))
@@ -378,7 +378,7 @@ async function starts() {
 					me = client.user
 					user.push(sender)
 					uptime = process.uptime()
-					teks = `⟩➢ *Nama Bot* : ${me.name}\n⟩➢ *Nome Bot* : @${me.jid.split('@')[0]}\n⟩➢ *prefix* : | ${prefix} |\n⟩➢ *Total Block* : ${blocked.length}\n⟩➢ *Ativo Desde* : ${kyun(uptime)}\n\n⟩➢ Total de usuários: *${user.length}* User\n⟩➢ *Instagram* : markoswythor`
+					teks = `⟩➢ *Nama Bot* : ${me.name}\n⟩➢ *Nome Bot* : @${me.jid.split('@')[0]}\n⟩➢ *prefix* : | ${prefix} |\n⟩➢ *Total Block* : ${blocked.length}\n⟩➢ *Ativo Desde* : ${kyun(uptime)}\n\n⟩➢ Total de usuários: *${user.length}* User\n⟩➢ *Instagram* : ......`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
@@ -953,7 +953,7 @@ async function starts() {
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('559488088531@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('5586988036194@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Problema relatado ao proprietário do BOT, relatório falso/principal2 não será respondido ok.')
                     break
                 case 'request':
@@ -968,7 +968,7 @@ async function starts() {
                          text: ress,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('559488088531@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('5586988036194@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Seu pedido CHEGOU AO proprietário do BOT, solicitações falsas/main2 não serão respondidas.')
                     break
 				case 'memeindo':
@@ -1874,7 +1874,7 @@ async function starts() {
 						teks += `╠➥ @${mem.jid.split('@')[0]} wa.me/${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions(`╔═══✪ Tag By *${pushname2}* ✪══`+ teks +'╚═══〘 MARKOS BOT 〙═══', members_id, true)
+					mentions(`╔═══✪ Tag By *${pushname2}* ✪══`+ teks +'╚═══〘 ALN BOT 〙═══', members_id, true)
 					break
 			    case 'mentionall':
 			    if (isBanned) return reply(mess.only.benned)    
@@ -1887,7 +1887,7 @@ async function starts() {
 						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions(`╔══〘  *${body.slice(12)}*  〙✪══`+teks+'╚═〘 MARKOS BOT 〙', members_id, true)
+					mentions(`╔══〘  *${body.slice(12)}*  〙✪══`+teks+'╚═〘 ALN BOT 〙', members_id, true)
 					break
 			    case 'kbbi':
 			    if (isBanned) return reply(mess.only.benned)    
@@ -1931,7 +1931,7 @@ async function starts() {
 					for (let _ of anu) {
 						client.deleteChat(_.jid)
 					}
-					reply(`\`\`\`Sukses delete all chat MARKOS BOT\`\`\``)
+					reply(`\`\`\`Sukses delete all chat ALN BOT\`\`\``)
 					break
                                 case 'bcgc':
 					client.updatePresence(from, Presence.composing) 
@@ -1964,7 +1964,7 @@ async function starts() {
 						reply('Sucesso broadcast')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `[ *MARKOS BOT BROADCAST* ]\n\n${body.slice(4)}`)
+							sendMess(_.jid, `[ *ALN BOT BROADCAST* ]\n\n${body.slice(4)}`)
 						}
 						reply('Sucesso broadcast')
 					}
@@ -2854,7 +2854,7 @@ case 'asupan':
 						console.log(muehe)
 						reply(muehe)
 					} else {
-						console.log(color('[MARKOS BOT]','aqua'), 'Comando não registrado', color(sender.split('@')[0]))
+						console.log(color('[ALN BOT]','aqua'), 'Comando não registrado', color(sender.split('@')[0]))
 					}
                            }
 		} catch (e) {
