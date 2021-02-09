@@ -7,7 +7,7 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 \`\`\`POR FAVOR, LEIA AS NOTAS ABAIXO ANTES\`\`\`
 \`\`\`USANDO O BOT\`\`\`
 
-╭──────「 *REGULAMENTO DO MARKOS* 」
+╭──────「 *REGULAMENTO DO ALN-BOT6* 」
 ┴
 ┣⊱  \`\`\`NOME DO USUÁRIO:\`\`\` *${pushname2}*
 ┣⊱  \`\`\`VERIFICAÇÃO:\`\`\` ✅
@@ -66,18 +66,18 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 ┴
 │➻ *${prefix}quotemaker tx/wtrmk/tema*
 │➻ *${prefix}nulis nama/kelas/text*
-│➻ *${prefix}nulis MARKOS/Bot*
+│➻ *${prefix}nulis ALN/Bot*
 │
-│➻ *${prefix}tahta MARKOS*
-│➻ *${prefix}croman MARKOS BOT*
-│➻ *${prefix}clove MARKOS*
-│➻ *${prefix}cparty MARKOS*
-│➻ *${prefix}csky MARKOS*
+│➻ *${prefix}tahta ALN*
+│➻ *${prefix}croman ALN BOT*
+│➻ *${prefix}clove ALN*
+│➻ *${prefix}cparty ALN*
+│➻ *${prefix}csky ALN*
 │➻ *${prefix}tts id Haii*
-│➻ *${prefix}ttp MARKOS [ERROR]*
-│➻ *${prefix}cballon MARKOS*
-│➻ *${prefix}cpaper MARKOS*
-│➻ *${prefix}slide MARKOS BOT WA*
+│➻ *${prefix}ttp ALN [ERROR]*
+│➻ *${prefix}cballon ALN*
+│➻ *${prefix}cpaper ALN*
+│➻ *${prefix}slide ALN BOT WA*
 │
 │➻ *${prefix}stiker*
 │➻ *${prefix}gifstiker*
@@ -302,8 +302,9 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 ╰────────────────────────
 
 
-╭─────「*PARCERIA MARKOS* 」
+╭─────「*PARCERIA ALN* 」
 ┴
+│➲ *MARKOS 🔥*
 │➲ *TIO XANDE❤️🐊*
 │➲ *SANDISX 🔥🤙*
 ┬
