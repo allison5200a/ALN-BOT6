@@ -119,7 +119,7 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 │➻ *${prefix}ownergrup*
 │➻ *${prefix}setpp*
 │➻ *${prefix}infogc*
-│➻ *${prefix}add 559488088531*
+│➻ *${prefix}add 55XXXXXXXX*
 │➻ *${prefix}kick @mentioned*
 │➻ *${prefix}kicktime @mentioned*
 │➻ *${prefix}promote @mentioned*
@@ -189,7 +189,7 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 │➻ *${prefix}persengay Topan*
 │➻ *${prefix}pbucin Farhan*
 │➻ *${prefix}bpfont Farhan*
-│➻ *${prefix}textstyle MARKOS*
+│➻ *${prefix}textstyle ALN*
 │➻ *${prefix}jadwaltv antv*
 │➻ *${prefix}lirik melukis senja*
 │➻ *${prefix}chord Melukis senja*
